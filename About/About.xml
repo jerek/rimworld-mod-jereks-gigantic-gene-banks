@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Jerek's Gigantic Gene Banks</name>
+	<author>Jerek Dain</author>
+	<packageId>JerekDain.GiganticGeneBanks</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Increases the capacity of gene banks from 4 to 64.</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Farxmai2.GeneBanksExapnded</li>
+		<li>Farxmai2.GeneBanksExpanded</li>
+		<li>lowli.genebankplus</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>ferny.artaccurategenebank</li>
+	</incompatibleWith>
+</ModMetaData>
